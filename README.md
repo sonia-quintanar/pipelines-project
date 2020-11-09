@@ -32,4 +32,6 @@ Después de analizar los datos anteriores, vamos realizar llamadas a la API de R
 
 He conseguido conectar con la API de Rakuten, pero no he sabido obtener el json.
 
+![API](https://github.com/sonia-quintanar/pipelines-project/blob/main/output/API.png)
+
 https://english.api.rakuten.net/category/eCommerce
