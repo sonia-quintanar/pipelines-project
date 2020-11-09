@@ -16,14 +16,20 @@ En este proyecto, analizamos las 5 bodegas que mayor número de ventas tienen si
 
 A continuación, mostramos los resultados a través de distintos gráficos:
 
+Las bodegas que más vinos tienen a la venta son Bodegas Valdemar y CNVE, seguido de Marqués de Cáceres y Torres, por encima de Vicente Gandia.
+
 ![gráfico1](https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g1.jpg)
+
+En los dos siguientes gráficos podemos observar por cada bodega, en qué territorios tienen venta de vinos.
 
 ![gráfico2](https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g2.jpg)
 
-![gráfico3](https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g3.jpg)
-
 ![gráfico4](https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g4.jpg)
 
-Después de analizar los datos anteriores, vamos realizar llamadas a la API de Amazon para que nos devuelva los vinos españoles que se venden en su página web y si coinciden con las ventas obtenidas en los datos anteriomente mencionados.
+Después de analizar los datos anteriores, vamos realizar llamadas a la API de Rakuten para que nos devuelva los vinos españoles que se venden en su página web y si coinciden con las ventas obtenidas en los datos anteriomente mencionados.
 
-Como resultado, podemos observar que
+---
+
+He conseguido conectar con la API de Rakuten, pero no he sabido obtener el json.
+
+https://english.api.rakuten.net/category/eCommerce

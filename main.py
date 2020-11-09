@@ -32,18 +32,16 @@ df3.winery.value_counts() > 40
 df4 = df2[df.country.isin(["Spain"]) & df.winery.isin(["Bodegas Valdemar", "CVNE", "Torres", "Marqués de Cáceres", "Vicente Gandia"])]
 df4
 # Selecciono las columnas que quiero analizar.
-df4[["country", "title", "winery"]]
+df5 = df4[["country", "title", "winery"]]
+df5
 # Visualizo los datos a partir de un gráfico donde aparece el total por bodegas en España.
 sns_plot= sns.countplot(x=df4.country, hue=df4.winery)
 sns_plot.figure.savefig("g1.jpg", dpi=1000)
 # Visualizo los datos a partir de un gráfico donde aparece dónde tienen las bodegas D.O. (Denominación de Origen) con tres tipos de gráficos. 
 sns_plot2= sns.scatterplot(x="winery", y="region_1", data=df4)
 plt.savefig("g2.jpg", bbox_inches='tight', dpi=1000)
-g = sns.FacetGrid(data=df4, col="winery", row="country", sharex =False)
-g.map_dataframe(sns.countplot, x="region_1")
-plt.savefig("g3.jpg", bbox_inches='tight', dpi=1000)
 g = sns.FacetGrid(data=df4, col="country", row="winery", sharex =False)
 g.map_dataframe(sns.countplot, x="region_1")
 plt.savefig("g4.jpg", bbox_inches='tight', dpi=1000)
 # Exportamos el nuevo DataFrame con los datos que he valorado anteriormente.
-df4.to_csv('wine_cleaning.csv')
+df5.to_csv('wine_cleaning.csv')
