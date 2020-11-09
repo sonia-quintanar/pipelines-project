@@ -17,8 +17,11 @@ En este proyecto, analizamos las 5 bodegas que mayor número de ventas tienen si
 A continuación, mostramos los resultados a través de distintos gráficos:
 
 ![gráfico1] (https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g1.jpg)
+
 ![gráfico2] (https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g2.jpg)
+
 ![gráfico3] (https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g3.jpg)
+
 ![gráfico4] (https://github.com/sonia-quintanar/pipelines-project/blob/main/output/g4.jpg)
 
 Después de analizar los datos anteriores, vamos realizar llamadas a la API de Amazon para que nos devuelva los vinos españoles que se venden en su página web y si coinciden con las ventas obtenidas en los datos anteriomente mencionados.
